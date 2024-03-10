@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos del supermercado</title>
+</head>
+<body>
+    <h1>Información general</h1>
+    <h4>
+        <span>Usuario actual: </span>
+        <spam th:text="${user}"></spam>
+    </h4>
+
+    <p>
+        <li><a th:href="@{/index}">Home</a></li>
+        <a th:href="@{/login}">Iniciar sesión</a>
+        <a th:href="@{/logout}">Cerrar sesión</a>
+    </p>
+
+</body>
+</html>

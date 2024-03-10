@@ -1,0 +1,61 @@
+/* Estilos para el h1 */
+h1 {
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    font-size: 36px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    color: #333; /* Color del texto */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del texto */
+    text-align: center;
+}
+
+/* Estilos para el h1 al pasar el mouse */
+h1:hover {
+    color: #666666; /* Cambiar color del texto al pasar el mouse */
+}
+
+
+body {
+    margin: 10px; /* Margen en todos los lados */
+    max-width: 1200px; /* Ancho máximo del cuerpo */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+
+nav {
+    background-color: cadetblue; /* Color de fondo de la barra de navegación */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0; /* Elimina el margen externo */
+    padding: 0; /* Elimina el espacio interno */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos de lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos de lista */
+}
+nav ul li:hover {
+    background-color: blue; /* Cambia el color de fondo al hacer hover */
+}
+
+
+nav ul li a {
+    color: #fff; /* Color de texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    padding: 10px; /* Espaciado interno de los enlaces */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color de fondo cuando el cursor pasa por encima */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul li span {
+    color: #fff; /* Color de texto del nombre de usuario */
+    margin-left: 20px; /* Espaciado a la izquierda */
+}

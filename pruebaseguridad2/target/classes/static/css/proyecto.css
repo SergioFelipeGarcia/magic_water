@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 5rem;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.table th {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.page-title a {
+    text-decoration: none;
+    color: inherit;
+}

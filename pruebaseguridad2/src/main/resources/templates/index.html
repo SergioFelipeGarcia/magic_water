@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Water</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Inicio</a></li>
+            <li><a th:href="@{/login}">Iniciar sesión</a></li>
+            <li><a th:href="@{/tareas}">Tareas</a></li>
+            <li><a th:href="@{/proyecto}">Proyectos</a></li>
+            <li><a th:href="@{/logout}">Cerrar sesión</a></li>
+            <li> <spam th:text="${user}"></spam></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h1>Bienvenido a Magic Water</h1>
+                <p class="lead">Tu socio confiable para la calidad del agua</p>
+                <hr>
+                <p>Magic Water es una empresa líder en la industria de la gestión del agua, especializada en proporcionar soluciones innovadoras y sostenibles para garantizar la calidad del agua en diversas áreas.</p>
+                <p>Nuestro equipo de expertos altamente calificados y comprometidos utiliza tecnologías de vanguardia y metodologías científicas rigurosas para llevar a cabo estudios exhaustivos de calidad del agua.</p>
+                <p>Ofrecemos una amplia gama de servicios, que incluyen análisis químicos, pruebas microbiológicas, monitoreo de calidad del agua en tiempo real, evaluación de riesgos ambientales y asesoramiento en la implementación de medidas correctivas.</p>
+                <p>En Magic Water, estamos dedicados a proteger y preservar uno de los recursos más importantes de nuestro planeta: el agua. Trabajamos en estrecha colaboración con gobiernos, empresas y comunidades para promover prácticas sostenibles de gestión del agua y garantizar un suministro seguro y saludable de agua para las generaciones futuras.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
